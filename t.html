@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html lang="zh">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>名字竞技场</title>
-    <meta name="description" content="名字竞技场是一款基于文本的网页对战游戏。战斗的过程和结果由输入的名字直接决定。">
-    <meta name="keywords" content="竞技场,名字,姓名,打架,PK,MD5大作战,游戏,随机,预测,对战,Namerena,Game,Name,Predict,Battle,Random">
+    <title>Namerena</title>
+	<meta name="description" content="Namerena is a text based fighting game. The result of the game is fully determined by the inputed names.">
+    <meta name="keywords" content="Namerena,Game,Name,Predict,Battle,Random">
     <style>
 html {
  width:100%;
@@ -357,7 +357,7 @@ div.menuopen {
     transform: translate(0,0);
   }
 }
-   
+
    
    
 .menu >* {
@@ -577,7 +577,7 @@ div.menuopen {
           <div class='goBar'>
             <div class="svgicon checkBoss"></div>
             <button class='goBtn'></button>
-            <button class='picon addPlayer'><div class="svgicon add"></div></button>
+            <button class='picon addPlayer' style='display:none'><div class="svgicon add"></div></button>
           </div>
           
           <button class='picon closeBtn'><div class="svgicon close"></div></button>
@@ -589,7 +589,7 @@ div.menuopen {
           </div>
           <canvas id='qrCanvas' style='display:none'></canvas>
           <image class='weiboPreview'></image>
-          <div id='shareBar'>
+          <div id='shareBar' style='display:none'>
             <button id='shareWeibo' class='weiboBtn'><div class='weiboIcon'></div></button>
           </div>
           <button class='picon closeBtn'><div class="svgicon close"></div></button>
@@ -613,7 +613,5 @@ div.menuopen {
     </div>
 
     <script src="loader.js"></script>
-    <script src="//tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2543402153&amp;debug=true" type="text/javascript" charset="utf-8"></script>
-    <script src="weibo.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
