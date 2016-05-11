@@ -516,9 +516,9 @@ div.menuopen {
         break;
       }
     }
-    var customlanpos = window.location.hash.lastIndexOf("l=");
+    var customlanpos = window.location.search.lastIndexOf("l=");
     if (customlanpos > 0) {
-      lanfile = decodeURIComponent(window.location.hash.substring(customlanpos+2));
+      lanfile = decodeURIComponent(window.location.search.substring(customlanpos+2));
     }
     req0 = new XMLHttpRequest();
     req0.open("GET", lanfile);

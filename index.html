@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>名字竞技场</title>
-    <meta name="description" content="名字竞技场是一款基于文本的网页对战游戏。战斗的过程和结果由输入的名字直接决定。">
+    <meta name="description" content="名字竞技场是一款基于文本的对战游戏。在文本框中输入几个名字点击开始就可以进入战斗，之后不需要任何操作，战斗的过程和结果由输入的名字直接决定。每次输入相同的名字都会得到相同结果，即使改变名字的顺序结果也不会变。">
     <meta name="keywords" content="竞技场,名字,姓名,打架,PK,MD5大作战,游戏,随机,预测,对战,Namerena,Game,Name,Predict,Battle,Random">
     <style>
 html {
@@ -516,9 +516,9 @@ div.menuopen {
         break;
       }
     }
-    var customlanpos = window.location.hash.lastIndexOf("l=");
+    var customlanpos = window.location.search.lastIndexOf("l=");
     if (customlanpos > 0) {
-      lanfile = decodeURIComponent(window.location.hash.substring(customlanpos+2));
+      lanfile = decodeURIComponent(window.location.search.substring(customlanpos+2));
     }
     req0 = new XMLHttpRequest();
     req0.open("GET", lanfile);

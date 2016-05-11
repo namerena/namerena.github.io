@@ -6,7 +6,7 @@
 "sklAccumulateCancel": "[1]的[强化]解除了",
 "sklAssassinate1": "[0]对[1]设下[骗局]",
 "sklAssassinate2": "[0]的[骗局]成功",
-"dodge": "但是失败了",
+"dodge": "但是对[0]并不奏效",
 "sklAssassinateFailed": "[0]的[骗局]被识破",
 "sklBerserkEnd": "[1]从[梦游]中解除",
 "sklBerserkAttack": "[0]在[1]的地盘[梦游]",
@@ -95,7 +95,6 @@
 "bossName_yuri": "尤里",
 "sklYuriControl": "[0]使用[心灵控制]",
 "endMessage": "你已经玩了[0]局",
-"communityLink": "community.html",
 "weiboAdd1": "选择好友",
 "weiboAdd2": "全部好友",
 "weiboShare": "分享到微博",
@@ -146,5 +145,6 @@
 "sklZombieName": "僵尸企业",
 "sklZombie": "[0]使用[僵尸卡]",
 "sklZombied": "[2]变成了[1]",
-"continueGame": "继续游戏"
+"continueGame": "继续游戏",
+"navigationLink": "navigation.html"
 }

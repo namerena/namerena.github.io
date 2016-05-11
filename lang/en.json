@@ -145,6 +145,6 @@
 "challengeLabel": "Challenge",
 "selectBossHint": "Select",
 "endMessage": "[0] games played",
-"communityLink": "community.html",
-"continueGame": "Continue"
+"continueGame": "Continue",
+"navigationLink": "navigation.html"
 }

@@ -96,7 +96,6 @@
 "sklYuriControl": "[0]使用[心靈控制]",
 "endMessage": "你已經玩了[0]局了",
 "continueGame": "繼續遊戲",
-"communityLink": "community.html",
 "weiboAdd1": "選擇好友",
 "weiboAdd2": "全部好友",
 "weiboShare": "分享到微博",
@@ -146,5 +145,6 @@
 "sklUpgradeCancel": "[1]的[垂死]屬性被打消",
 "sklZombieName": "喪屍",
 "sklZombie": "[0][召喚亡靈]",
-"sklZombied": "[2]變成了[1]"
+"sklZombied": "[2]變成了[1]",
+"navigationLink": "navigation.html"
 }
