@@ -146,5 +146,15 @@
 "selectBossHint": "Select",
 "endMessage": "[0] games played",
 "continueGame": "Continue",
-"navigationLink": "navigation.html"
+"navigationLink": "navigation.html",
+"bossName_lazy": "Laziness Cancer",
+"sklLazyDamage": "[1]'s [Laziness Cancer] attacks",
+"sklLazySkipTurn1": "[0] opens [Steam]",
+"sklLazySkipTurn2": "[0] opens [Overwatch]",
+"sklLazySkipTurn3": "[0] opens [Heroes of the Storm]",
+"sklLazySkipTurn4": "[0] opens [League of Legends]",
+"sklLazySkipTurn5": "[0] opens [Twitter]",
+"sklLazySkipTurn6": "[0] opens [Facebook]",
+"sklLazySkipTurn0": "passes this turn",
+"sklLazyHit": "[1] is infected  with [Laziness Cancer]"
 }

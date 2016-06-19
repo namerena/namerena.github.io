@@ -146,5 +146,15 @@
 "sklZombieName": "喪屍",
 "sklZombie": "[0][召喚亡靈]",
 "sklZombied": "[2]變成了[1]",
-"navigationLink": "navigation.html"
+"navigationLink": "navigation.html",
+"bossName_lazy": "懶癌",
+"sklLazyDamage": "[1][懶癌]發作",
+"sklLazySkipTurn1": "[0]打開了[Steam]",
+"sklLazySkipTurn2": "[0]打開了[守望先鋒]",
+"sklLazySkipTurn3": "[0]打開了[風暴英雄]",
+"sklLazySkipTurn4": "[0]打開了[英雄聯盟]",
+"sklLazySkipTurn5": "[0]打開了[微博]",
+"sklLazySkipTurn6": "[0]打開了[朋友圈]",
+"sklLazySkipTurn0": "這回合什麽也沒做",
+"sklLazyHit": "[1]感染了[懶癌]"
 }
