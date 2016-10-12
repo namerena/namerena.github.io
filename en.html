@@ -507,15 +507,7 @@ div.menuopen {
     </style>
     <script>
     var lanfile = "lang/en.json";
-    if (navigator.languages == undefined) {
-      navigator.languages = [navigator.language];
-    }
-    for (var i in navigator.languages){
-      if (navigator.languages[i].substring(0,2)=="zh") {
-        lanfile = "lang/zh.json";
-        break;
-      }
-    }
+
     var customlanpos = window.location.search.lastIndexOf("l=");
     if (customlanpos > 0) {
       lanfile = decodeURIComponent(window.location.search.substring(customlanpos+2));
