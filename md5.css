@@ -169,6 +169,10 @@ td > .plr_list, td > .plr_body {
  margin-left: 4px;
  display:inline-block;
 }
+.small {
+ font-size: 11px;
+ color: #0077BB;
+}
 .stext {
  color: #0077BB;
 }
