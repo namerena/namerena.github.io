@@ -83,7 +83,7 @@
 "sklLazyDamage": "[1][懒癌]发作",
 "sklLazySkipTurn1": "[0]打开了[Steam]",
 "sklLazySkipTurn2": "[0]打开了[守望先锋]",
-"sklLazySkipTurn3": "[0]打开了[风暴英雄]",
+"sklLazySkipTurn3": "[0]打开了[文明6]",
 "sklLazySkipTurn4": "[0]打开了[英雄联盟]",
 "sklLazySkipTurn5": "[0]打开了[微博]",
 "sklLazySkipTurn6": "[0]打开了[朋友圈]",
@@ -156,5 +156,11 @@
 "sklUpgradeCancel": "[1]的[垂死]属性被打消",
 "sklZombieName": "丧尸",
 "sklZombie": "[0][召唤亡灵]",
-"sklZombied": "[2]变成了[1]"
+"sklZombied": "[2]变成了[1]",
+"weaponS11_0": "[0]在促销日[购买]了武器",
+"weaponS11_1": "但是并没有什么用",
+"weaponS11_2": "增加了[2]点",
+"weaponS11Done1": "[0]信用卡刷爆",
+"weaponS11Done3": "[0]砍下了自己的左手",
+"weaponS11Done2": "[0]砍下了自己的右手"
 }

@@ -152,9 +152,15 @@
 "sklLazySkipTurn1": "[0] opens [Steam]",
 "sklLazySkipTurn2": "[0] opens [Overwatch]",
 "sklLazySkipTurn3": "[0] opens [Heroes of the Storm]",
-"sklLazySkipTurn4": "[0] opens [League of Legends]",
+"sklLazySkipTurn4": "[0] opens [Civilization VI]",
 "sklLazySkipTurn5": "[0] opens [Twitter]",
 "sklLazySkipTurn6": "[0] opens [Facebook]",
 "sklLazySkipTurn0": "passes this turn",
-"sklLazyHit": "[1] is infected  with [Laziness Cancer]"
+"sklLazyHit": "[1] is infected  with [Laziness Cancer]",
+"weaponS11_0": "[0] [purchased] a new weapon at Black Friday",
+"weaponS11_1": "but it's almost useless",
+"weaponS11_2": " is boosted by [2] points",
+"weaponS11Done1": "[0]'s credit card is maxed out",
+"weaponS11Done3": "[0] cut off his left hand",
+"weaponS11Done2": "[0] cut off his right hand"
 }
