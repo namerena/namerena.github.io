@@ -106,9 +106,9 @@ iframe {
   box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 
   background: #6cc4ec;
-  background: linear-gradient(100deg, #6cc4ec 0%, #2AA2D6 100%); 
+  background: linear-gradient(100deg, #6cc4ec 0%, #2AA2D6 100%);
   border-radius: 10px;
-  
+
   padding: 8px;
   padding-top: 0;
   pointer-events:auto;
@@ -137,7 +137,7 @@ iframe {
   -webkit-flex-direction: column;
   display: flex;
   flex-direction: column;
-  
+
   flex-align: center;
   -webkit-align-items: center;
   align-items: center;
@@ -193,7 +193,7 @@ button,.button {
 }
 button:hover,.button:hover {
   background: #999;
-  background: linear-gradient(0deg, #888 0%,#999 100%); 
+  background: linear-gradient(0deg, #888 0%,#999 100%);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .goBar {
@@ -203,7 +203,7 @@ button:hover,.button:hover {
 .goBtn {
   font-weight: bold;
   font-size: 16px;
-  width: 100px; 
+  width: 100px;
   position:absolute;
   left:0;
   right:0;
@@ -219,7 +219,7 @@ button:hover,.button:hover {
   top:4px;
   margin:0;
 }
-  
+
 
 div.checkBoss {
   color: #fff;
@@ -331,12 +331,12 @@ div.checkedBoss {
   border: solid white 1px;
   color: #fff;
   display: none;
-  
+
 }
 div.menuopen {
   display:block;
     -webkit-animation:  menu-show 0.2s ease-out 0s 1 both;
-    animation:  menu-show 0.2s ease-out 0s 1 both; 
+    animation:  menu-show 0.2s ease-out 0s 1 both;
 }
 @-webkit-keyframes menu-show {
   0%{
@@ -358,16 +358,16 @@ div.menuopen {
     transform: translate(0,0);
   }
 }
-   
-   
-   
+
+
+
 .menu >* {
  border-radius: 12px;
   cursor: pointer;
 }
 .menu >*:hover {
   background: #999;
-  background: linear-gradient(0deg, #888 0%,#999 100%); 
+  background: linear-gradient(0deg, #888 0%,#999 100%);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -474,16 +474,16 @@ div.menuopen {
   border-radius: 50%;
   display: inline-block;
   -webkit-animation: loading-bounce 1.5s ease-in-out 0s infinite both;
-          animation: loading-bounce 1.5s ease-in-out 0s infinite both; 
+          animation: loading-bounce 1.5s ease-in-out 0s infinite both;
 }
 .loader > div:first-child{
   -webkit-animation-delay: -0.16s;
-          animation-delay: -0.16s; 
+          animation-delay: -0.16s;
 }
 .loader > div:last-child{
   background-color: #777;
   -webkit-animation-delay: 0.16s;
-          animation-delay: 0.16s; 
+          animation-delay: 0.16s;
 }
 
 @-webkit-keyframes loading-bounce {
@@ -496,13 +496,13 @@ div.menuopen {
 }
 @keyframes loading-bounce {
   0%, 80%, 100% {
-   transform: scale(0); 
+   transform: scale(0);
   }
   40% {
-   transform: scale(1); 
-  } 
+   transform: scale(1);
+  }
 }
-            
+
     </style>
     <style id="pstyle">
     </style>
@@ -527,16 +527,16 @@ div.menuopen {
     req1 = new XMLHttpRequest();
     req1.open("GET", "md5.js");
     req1.send();
-    
+
     req2 = new XMLHttpRequest();
     req2.open("GET", "md5.css");
     req2.send();
-    
+
     req3 = new XMLHttpRequest();
     req3.open("GET", "md5.html");
     req3.send();
-    
-    
+
+
       function cw(){
         return document.querySelector('.mdframe').contentWindow;
       }
@@ -545,7 +545,7 @@ div.menuopen {
       }
     </script>
   </head>
- 
+
   <body>
   <img src="thumb.jpg" width="0" height="0"/>
     <div class='ad_h'></div>
@@ -558,7 +558,7 @@ div.menuopen {
           <div id='textdiv'>
             <textarea></textarea>
           </div>
-          
+
           <div class='inputoptions vertical' style='height:0;opacity:0'>
            <div id='addBossBar' class='inputoption horizontal'>
             <div class='addPlayerLabel'></div>
@@ -571,7 +571,7 @@ div.menuopen {
            </div>
            <div class='bossList menu'></div>
           </div>
-          
+
           <div class='weiboList menu vertical'>
             <div id='weiboAdd1' class='horizontal'><div class='weiboIcon'></div></div>
             <div id='weiboAdd2' class='horizontal'><div class='weiboIcon'></div></div>
@@ -581,7 +581,7 @@ div.menuopen {
             <button class='goBtn'></button>
             <button class='picon addPlayer'><div class="svgicon add"></div></button>
           </div>
-          
+
           <button class='picon closeBtn'><div class="svgicon close"></div></button>
         </div>
         <div id="sharePanel" class="panel vertical">
@@ -614,7 +614,7 @@ div.menuopen {
       </div>
     </div>
 
-    <script src="loader.js"></script>
+    <script src="index.dart.js"></script>
     <script src="//tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2543402153&amp;debug=true" type="text/javascript" charset="utf-8"></script>
     <script src="weibo.js" type="text/javascript" charset="utf-8"></script>
   </body>
