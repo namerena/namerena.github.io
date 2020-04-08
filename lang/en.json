@@ -163,5 +163,13 @@
 "weaponS11Done1": "[0]'s credit card is maxed out",
 "weaponS11Done3": "[0] cut off his left hand",
 "weaponS11Done2": "[0] cut off his right hand",
-"weaponDeathNoteAtk": "[0] writes [1]'s name in [Death Note]"
+"weaponDeathNoteAtk": "[0] writes [1]'s name in [Death Note]",
+"bossName_covid": "COVID-19",
+"sklCovidDamage": "[1] suffers severe [pneumonia]",
+"sklCovidMutate": "[1]'s virus has evolved",
+"sklCovidICU": "[1] is stuck in ICU",
+"sklCovidStayHome": "[1] self-isolate at home",
+"sklCovidInfect": "[0] has close encounter with[1]",
+"sklCovidPrevent": "but [1] is not infected",
+"sklCovidHit": "[1] is infected with [COVID-19]"
 }

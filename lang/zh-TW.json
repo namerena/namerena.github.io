@@ -163,5 +163,13 @@
 "weaponS11Done1": "[0]信用卡刷爆",
 "weaponS11Done3": "[0]砍下了自己的左手",
 "weaponS11Done2": "[0]砍下了自己的右手",
-"weaponDeathNoteAtk": "[0]在[死亡笔记]写下[1]的名字"
+"weaponDeathNoteAtk": "[0]在[死亡笔记]写下[1]的名字",
+"bossName_covid": "新冠病毒",
+"sklCovidDamage": "[1][肺炎]发作",
+"sklCovidMutate": "[1]所感染的病毒发生变异",
+"sklCovidICU": "[1]在重症监护室无法行动",
+"sklCovidStayHome": "[1]在家中自我隔离",
+"sklCovidInfect": "[0]和[1]近距离接触",
+"sklCovidPrevent": "但[1]没被感染",
+"sklCovidHit": "[1]感染了[新冠病毒]"
 }
