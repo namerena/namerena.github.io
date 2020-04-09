@@ -171,5 +171,6 @@
 "sklCovidStayHome": "[1]在家中自我隔离",
 "sklCovidInfect": "[0]和[1]近距离接触",
 "sklCovidPrevent": "但[1]没被感染",
-"sklCovidHit": "[1]感染了[新冠病毒]"
+"sklCovidHit": "[1]感染了[新冠病毒]",
+"weaponRModifierUse": "[0]使用[属性修改器]"
 }

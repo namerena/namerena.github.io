@@ -133,14 +133,6 @@
 "weiboAdd1": "Select Friends",
 "weiboAdd2": "All Friends",
 "welcome2": "",
-"weiboShare": "Share on Weibo",
-"weiboStatusDual": "@[0] 和  @[1] 在#名字竞技场#中决斗，",
-"weiboStatusFriends": "我和好友们在#名字竞技场#中展开大战，",
-"weiboStatusMeKilled": "混战中我被 @[0] 打倒，",
-"weiboStatusAny": "在#名字竞技场#里试了这几个名字对战，",
-"weiboStatusFinish": "一番激战之后 @[0] 最终获胜。",
-"weiboShareSend": "Send",
-"weiboStatusUrl": " 点开查看全部战斗过程：",
 "startFight": "Fight",
 "challengeLabel": "Challenge",
 "selectBossHint": "Select",
@@ -171,5 +163,6 @@
 "sklCovidStayHome": "[1] self-isolate at home",
 "sklCovidInfect": "[0] has close encounter with[1]",
 "sklCovidPrevent": "but [1] is not infected",
-"sklCovidHit": "[1] is infected with [COVID-19]"
+"sklCovidHit": "[1] is infected with [COVID-19]",
+"weaponRModifierUse": "[0] use [Property Trainer]"
 }
