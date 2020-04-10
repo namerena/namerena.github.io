@@ -164,5 +164,6 @@
 "sklCovidInfect": "[0] has close encounter with[1]",
 "sklCovidPrevent": "but [1] is not infected",
 "sklCovidHit": "[1] is infected with [COVID-19]",
-"weaponRModifierUse": "[0] use [Property Trainer]"
+"weaponRModifierUse": "[0] use [Property Trainer]",
+"benchmarkRatio": "》 胜率: [2]%"
 }
