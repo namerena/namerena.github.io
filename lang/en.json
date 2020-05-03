@@ -41,9 +41,9 @@
 "sklIrond": "[0]'s defence is greatly increased",
 "sklIronCancel": "[1]'s [Shell] is brokern",
 "sklIronEnd": "[0]'s [Shell] disapears",
-"sklPoisonDamage": "[1] is damaged by [Posion]",
-"sklPoisonEnd": "[1] is no longer [Posioned]",
-"sklPoisonHit": "[1] is [Posioned]",
+"sklPoisonDamage": "[1] is damaged by [Poison]",
+"sklPoisonEnd": "[1] is no longer [Poisoned]",
+"sklPoisonHit": "[1] is [Poisoned]",
 "sklPoison": "[0] casts [Venom]",
 "sklQuake": "[0] casts [Earthquake]",
 "SklRapid": "[0] attacks",
@@ -165,5 +165,5 @@
 "sklCovidPrevent": "but [1] is not infected",
 "sklCovidHit": "[1] is infected with [COVID-19]",
 "weaponRModifierUse": "[0] use [Property Trainer]",
-"benchmarkRatio": "》 胜率: [2]%"
+"benchmarkRatio": "》 winning rate: [2]%"
 }
