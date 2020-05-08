@@ -173,5 +173,9 @@
 "sklCovidPrevent": "但[1]没被感染",
 "sklCovidHit": "[1]感染了[新冠病毒]",
 "weaponRModifierUse": "[0]使用[属性修改器]",
-"benchmarkRatio": "》 胜率: [2]%"
+"benchmarkRatio": "》 胜率: [2]%",
+"searchStart": "搜索开始...",
+"searchEnd": "搜索结束",
+"searchFailed": "但是一无所获",
+"searchInvalid": "错误，目前最多支持8000人搜索"
 }

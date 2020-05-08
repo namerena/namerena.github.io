@@ -165,5 +165,9 @@
 "sklCovidPrevent": "but [1] is not infected",
 "sklCovidHit": "[1] is infected with [COVID-19]",
 "weaponRModifierUse": "[0] use [Property Trainer]",
-"benchmarkRatio": "》 winning rate: [2]%"
+"benchmarkRatio": "》 winning rate: [2]%",
+"searchStart": "Searching...",
+"searchEnd": "Searching finished",
+"searchFailed": "but find nothing",
+"searchInvalid": "Error, too many players, please input less than 8000 players"
 }
