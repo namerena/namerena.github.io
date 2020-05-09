@@ -99,7 +99,7 @@
 "win": "[2] win",
 "minionDie": "[1] disappears",
 "damage": "[1] is damaged by [2] points",
-"die": "[1] is killed",
+"die": "[1] is defeated",
 "sklMagicAttack": "[0] attacks",
 "sklAttack": "[0] attacks",
 "sklCounter": "[0] [counter attacks]",
