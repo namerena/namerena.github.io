@@ -169,5 +169,8 @@
 "searchStart": "Searching...",
 "searchEnd": "Searching finished",
 "searchFailed": "but find nothing",
-"searchInvalid": "Error, too many players, please input less than 8000 players"
+"searchInvalid": "Error, too many players, please input less than 8000 players",
+"bossName_saitama": "一拳超人",
+"saitamaLeave": "[0]觉得有点饿",
+"saitamaHungry": "[0]觉得有点饿"
 }
