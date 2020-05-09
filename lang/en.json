@@ -121,7 +121,7 @@
 "sklConanThinkingFinish2": "There is always only one truth",
 "sklConanThinkingFinish3": "The murderer is you",
 "sklConanKillLast": "[1]",
-"sklConanKill": "[0] finds [1]'s corpse in a locked room",
+"sklConanKill": "[0] finds [1]'s dead body in a locked room",
 "returnTitle": "Return",
 "fastTitle": "Fast Forward",
 "shareTitle": "Share",
@@ -172,5 +172,6 @@
 "searchInvalid": "Error, too many players, please input less than 8000 players",
 "bossName_saitama": "Saitama",
 "saitamaLeave": "[0] has left the battlefield",
-"saitamaHungry": "[0] feels hungry"
+"saitamaHungry": "[0] feels hungry",
+"sklConanKillUnknown": "[0] finds an unknown dead body in a locked room"
 }
