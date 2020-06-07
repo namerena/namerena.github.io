@@ -2216,9 +2216,9 @@ if(c>4&&!(b.fr<=0)){if(b.a6($.b8(),d))return
 u=b.r1
 t=H.o(u.h(0,$.b8()),"$idE")
 if(t==null){t=new T.dE(a,b)
-t.y=T.u(a,!0,d)*1.1
+t.y=T.u(a,!0,d)*1.2
 u.k(0,$.b8(),t)
-b.x1.i(0,t)}else{t.y=t.y+T.u(a,!0,d)*1.1
+b.x1.i(0,t)}else{t.y=t.y+T.u(a,!0,d)*1.2
 t.z=4
 t.r=a}e.a.push(T.e(C.c.J(O.c("UAjR"),$.mO()),a,b,null,null,60,1000,100))}},
 u:function(a,b,c){var u,t=b?a.db:a.Q,s=t+64,r=[P.i],q=H.a([c.m()&127,c.m()&127,c.m()&127,s,t],r)
@@ -7038,7 +7038,7 @@ if(b){u=this.r
 if(u.fx-u.fr<32)return!1}return this.aS(a,b)},
 q:function(a,b,c,d){var u=a[0].a,t=T.u(this.r,!0,c)
 d.a.push(T.e(O.c("vFzm"),this.r,u,null,null,1,1000,100))
-u.a0(t*1.15,!0,this.r,T.pw(),c,d)}}
+u.a0(t*1.18,!0,this.r,T.pw(),c,d)}}
 T.hD.prototype={
 aq:function(a,b){if(this.fr.a!=null)return!1
 if(b)if(this.r.fr<120)return!1
@@ -7242,9 +7242,9 @@ s.push(T.e(O.c("Jggp"),q.r,T.a0(r,r.fr),p,p,0,1000,100))}}
 T.hI.prototype={
 $1:function(a){return a instanceof T.dO}}
 T.dP.prototype={
-q:function(a,b,c,d){var u=this,t=a[0].a,s=T.u(u.r,!1,c)*1.05,r=T.u(u.r,!1,c)*1.1
+q:function(a,b,c,d){var u=this,t=a[0].a,s=T.u(u.r,!1,c)*1.15,r=T.u(u.r,!1,c)*1.2
 if(r>s)s=r
-r=T.u(u.r,!1,c)*1.15
+r=T.u(u.r,!1,c)*1.25
 if(r>s)s=r
 d.a.push(T.e(O.c("udkt"),u.r,t,null,null,1,1000,100))
 t.a0(s,!1,u.r,T.a2(),c,d)}}
@@ -7390,7 +7390,7 @@ return u.a=u.a*a.K}return c.gbe()},
 q:function(a,b,c,d){var u,t,s,r,q=this,p=q.f
 if(p>8)q.f=p-1
 u=a[0].a
-t=C.e.Z(T.u(q.r,!0,c)/72)
+t=C.e.Z(T.u(q.r,!0,c)/60)
 s=u.fx-u.fr
 if(t>s)t=s
 p=d.a
@@ -7424,7 +7424,7 @@ a8:function(a,b,c){var u=this.bt(a,b,c)
 return a.r1.h(0,$.b7())!=null?u/2:u},
 q:function(a,b,c,d){var u=a[0].a,t=T.u(this.r,!0,c)
 d.a.push(T.e(O.c("qctf"),this.r,u,null,null,1,1000,100))
-u.a0(t*0.9,!0,this.r,T.kK(),c,d)}}
+u.a0(t*0.85,!0,this.r,T.kK(),c,d)}}
 T.hV.prototype={
 ga1:function(){return 4000},
 aq:function(a,b){if(this.fr.a!=null)return!1
@@ -7491,7 +7491,7 @@ $ip:1}
 T.i_.prototype={
 q:function(a,b,c,d){var u=a[0].a,t=T.u(this.r,!0,c)
 d.a.push(T.e(O.c("qrRc"),this.r,u,null,null,1,1000,100))
-u.a0(t*0.9,!0,this.r,T.pB(),c,d)}}
+u.a0(t,!0,this.r,T.pB(),c,d)}}
 T.i1.prototype={
 gb1:function(){return 5},
 gb2:function(){return 6},
@@ -9047,10 +9047,7 @@ u=new T.dK(t)
 t.r1.k(0,$.ka(),u)
 r.r.y1.i(0,u)}t=r.f
 s=u.x
-if(t>s){t=s+(c.au(32+C.b.v(t,2))+1)
-u.x=t
-s=r.f+16
-if(t>s)u.x=s}}return a},
+if(t>=s)u.x=s+(c.au(1+C.b.v(t*3,4))+1)}return a},
 X:function(){this.r.ry.i(0,this)},
 $iG:1}
 T.ie.prototype={
