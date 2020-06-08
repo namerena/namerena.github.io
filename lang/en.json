@@ -173,5 +173,6 @@
 "bossName_saitama": "Saitama",
 "saitamaLeave": "[0] has left the battlefield",
 "saitamaHungry": "[0] feels hungry",
-"sklConanKillUnknown": "[0] finds an unknown dead body in a locked room"
+"sklConanKillUnknown": "[0] finds an unknown dead body in a locked room",
+"sklHide": "[0] casts [Sneak]"
 }
