@@ -53,11 +53,6 @@ body {
 .refresh {
   background-image: url("data:image/svg+xml;utf8, %3Csvg fill='white' height='24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'/%3E%3C/svg%3E");
 }
-.add {
-  left: 1px;
-  top: 1px;
-  background-image: url("data:image/svg+xml;utf8, %3Csvg fill='white' height='24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'/%3E%3C/svg%3E");
-}
 .rightarrow {
   left: 1px;
   top: 1px;
@@ -200,19 +195,14 @@ button:hover,.button:hover {
 .goBar {
   width:100%;
   height:30px;
+  direction: ltr;
 }
 .goBtn {
   font-weight: bold;
   font-size: 16px;
   width: 100px;
   position:absolute;
-  left:0;
   right:0;
-  margin:auto;
-}
-.addPlayer {
-  position:absolute;
-  right: 4px;
 }
 .closeBtn {
   position:absolute;
@@ -241,7 +231,6 @@ div.checkBoss {
 div.checkedBoss {
  opacity: 1;
  background-image: url("data:image/svg+xml;utf8, %3Csvg fill='white' height='24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z'/%3E%3C/svg%3E");
- transform: translate(0, -36px);
 }
 
 .inputoptions {
@@ -259,33 +248,6 @@ div.checkedBoss {
   justify-content: flex-end;
 }
 
-.weiboBtn {
-  font-style: normal;
-  font-size: 14px;
-  padding:  2px 8px 2px 30px;
-  margin: 2px;
-  position: relative;
-}
-.weiboBtn > .weiboIcon {
-  position: absolute;
-  left: 8px;
-  top: 1px;
-}
-
-.weiboIcon {
-  background-image:url(https://www.weibo.com/favicon.ico);
-  background-size: 20px 20px;
-  width: 20px;
-  height: 20px;
-  margin: 0 4px 0 0 ;
-}
-
-.weiboPreview {
-  max-width:100%;
-  max-height: calc(100% - 180px);
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-}
 .bossSgl {
   width:16px;
   height:16px;
@@ -313,15 +275,6 @@ div.checkedBoss {
 .bossList {
   right:0;
   bottom:0;
-}
-.weiboList {
-  right:8px;
-  bottom:32px;
-  align-items: flex-start;
-}
-.weiboList > * {
-  padding: 2px 6px;
-  width:100%
 }
 .menu {
   position: absolute;
@@ -507,52 +460,17 @@ div.menuopen {
     </style>
     <style id="pstyle">
     </style>
-    <script>
-    var lanfile = "lang/zh.json";
-    if (navigator.languages == undefined) {
-      navigator.languages = [navigator.language];
-    }
-    for (var i in navigator.languages){
-      if (navigator.languages[i].substring(0,2)=="zh") {
-        lanfile = "lang/zh.json";
-        break;
-      }
-    }
-    var customlanpos = window.location.search.lastIndexOf("l=");
-    if (customlanpos > 0) {
-      lanfile = decodeURIComponent(window.location.search.substring(customlanpos+2));
-    }
-    req0 = new XMLHttpRequest();
-    req0.open("GET", lanfile);
-    req0.send();
-    req1 = new XMLHttpRequest();
-    req1.open("GET", "md5.js");
-    req1.send();
-
-    req2 = new XMLHttpRequest();
-    req2.open("GET", "md5.css");
-    req2.send();
-
-    req3 = new XMLHttpRequest();
-    req3.open("GET", "md5.html");
-    req3.send();
-
-
-      function cw(){
-        return document.querySelector('.mdframe').contentWindow;
-      }
-      function rld(a){
-        a.reload(false);
-      }
-    </script>
+    <script type="module" crossorigin src="./assets/sigils-_JrwaNEu.js"></script>
+    <script type="module" crossorigin src="./assets/ts-B0bn3h0g.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/ts-1ctl7pY6.css">
   </head>
 
   <body>
-  <img src="thumb.jpg" width="0" height="0"/>
+  <img src="./assets/thumb-DVEoyU_5.jpg" width="0" height="0"/>
     <div class='ad_h'></div>
     <div class='ad_v'></div>
     <div class='body'>
-    <iframe src='md5.html' class='mdframe'></iframe>
+    <iframe class='mdframe'></iframe>
       <div class="panels">
         <div id="inputPanel" class="panel vertical">
           <div id='inputtitle' class='paneltitle'></div>
@@ -573,14 +491,9 @@ div.menuopen {
            <div class='bossList menu'></div>
           </div>
 
-          <div class='weiboList menu vertical'>
-            <div id='weiboAdd1' class='horizontal'><div class='weiboIcon'></div></div>
-            <div id='weiboAdd2' class='horizontal'><div class='weiboIcon'></div></div>
-          </div>
           <div class='goBar'>
             <div class="svgicon checkBoss"></div>
             <button class='goBtn'></button>
-            <button class='picon addPlayer'><div class="svgicon add"></div></button>
           </div>
 
           <button class='picon closeBtn'><div class="svgicon close"></div></button>
@@ -591,7 +504,6 @@ div.menuopen {
             <textarea></textarea>
           </div>
           <canvas id='qrCanvas' style='display:none'></canvas>
-          <image class='weiboPreview'></image>
           <div id='shareBar'>
           </div>
           <button class='picon closeBtn'><div class="svgicon close"></div></button>
@@ -614,7 +526,5 @@ div.menuopen {
       </div>
     </div>
 
-    <script src="index.dart.js"></script>
-    <script src="lzma_worker-min.js"></script>
   </body>
 </html>
